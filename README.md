@@ -22,7 +22,7 @@ How to you it?
 
 FILE: resize.sh
 ---------------
-´´´
+```
 #!/bin/bash
 # author: Tomas Dohnalek, dohnto (at) gmail.com
 # description: This is a simple script that allows you to resize multiple
@@ -42,7 +42,7 @@ if [ "$size" -gt 0 -a "$size" -lt 100 ]; then
         convert $image -resize ${size}% ${dn}/${name}_${size}.${extension}
     done
 fi
-´´´
+```
 
 Others
 ------
